@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    /* padding: 20px; */
+    font-family: "Montserrat", sans-serif;
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
+}
+  .container {
+    position: relative;
+    padding: 20px;
+    max-width: 1200px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.clearall {
+    clear: both;
+    height: 1px;
+    width: auto;
+}
+.com-comn-hdr{
+    float: left;
+    width: 100%;
+
+}
+
+.fixed-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: smoothScroll 1s forwards;
+    z-index:99;
+  }
+.top-header {
+    width: 100%;
+    background: #076401;
+    border: 1px solid#fff;
+    height: 65px;
+    /*position: fixed;
+    overflow: hidden;
+    z-index: 1;*/
+}
+.top-header-list {
+    float: left;
+    width: 190px;
+}
+.top-header-list li {
+    float: left;
+    width: 25%;
+    list-style: none;
+}
+.top-header-list li img {
+    float: left;
+    width: 39px;
+    height: 15px;
+}
+.top-header-list li a:hover{
+    cursor: pointer;
+
+}
+.header {
+    width: 100%;
+    background: rgb(24,126,5);
+    background: linear-gradient(90deg, rgb(88 193 69) 100%, rgb(6 32 3) 100%);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 20px;
+    /* overflow-wrap: anywhere; */
+    /*position: fixed;
+    overflow: hidden;
+    z-index: 1;*/
+}
+.brochill-logo{
+    float: left;
+
+}
+.nav-list{
+    float:right;
+}
+.nav-list li {
+    float: left;
+    list-style: none;
+    padding: 0 7px;
+    color: #000;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color: #37e90a;
+    cursor: pointer;
+   
+
+}
+
+  /*===== section-1 ===== */
+.section-1,.section-2, .section-3{
+    float: left;
+    width: 100%;
+}
+.hdng{
+    float: left;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.section-1-hdng{
+    position: absolute;
+    left: 40%;
+    top: 0;
+    margin-left: -50px;
+    width: 300px;
+    text-align: center;
+    font-size:30px;
+    font-weight: 600;
+    background: #61CE70;
+
+}
+.section-1-hdng{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
+.section-1-hdng {
+	-webkit-animation: tracking-in-expand 1ss cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+  
+.s1-left {
+    width: 45%;
+    float: left;
+    /* padding-left: 10px; */
+    border-left: 5px solid #d1c1c180;
+    padding: 34px 18px;
+}
+.s1-left-txt{
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+
+.comn-img{
+    float: right;
+    width: 40%;
+
+}
